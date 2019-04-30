@@ -14,9 +14,6 @@ install: bundle install
 
 jobs:
   include:
-    - stage: test
-      script: bundle exec rake test:ios 
-    - script: bundle exec rake test:macos
     - stage: release
       env: Deployment
       script:
