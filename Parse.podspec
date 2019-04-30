@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version          = '1.17.2'
   s.license          =  { :type => 'BSD', :file => 'LICENSE' }
   s.homepage         = 'http://parseplatform.org/'
-  s.summary          = 'A library that gives you access to the powerful Parse cloud platform from your iOS/OS X/watchOS/tvOS app.'
+  s.summary          = 'A library that allows you to access a Parse Server from your iOS/OS X/watchOS/tvOS app.'
   s.authors          = 'Parse Community'
   s.social_media_url = 'https://twitter.com/ParsePlatform'
 
