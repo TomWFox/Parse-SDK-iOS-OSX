@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   
     s.libraries        = 'z', 'sqlite3'
   
-    s.dependency 'Bolts/Tasks', '~> 1.9'
+    s.dependency 'ParseBolts/Tasks', '~> 1.9.2'
   end
 
   s.subspec 'FacebookUtils' do |s|
@@ -125,7 +125,7 @@ Pod::Spec.new do |s|
     s.libraries        = 'z', 'sqlite3'
 
     s.dependency 'Parse/Core'
-    s.dependency 'Bolts', '~> 1.9'
+    s.dependency 'ParseBolts/Tasks', '~> 1.9.2'
     s.dependency 'FBSDKTVOSKit', '~> 4.33'
     s.dependency 'FBSDKShareKit', '~> 4.33'
   end
@@ -148,6 +148,7 @@ Pod::Spec.new do |s|
                         'Social'
     s.libraries        = 'z', 'sqlite3'
     s.dependency 'Parse/Core'
+    s.dependency 'ParseBolts/Tasks', '~> 1.9.2'
   end
 
   s.subspec 'UI' do |s|
