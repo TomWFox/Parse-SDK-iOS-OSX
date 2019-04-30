@@ -15,7 +15,7 @@
 [![Sponsors on Open Collective](https://opencollective.com/parse-server/sponsors/badge.svg)][open-collective-link]
 [![Twitter Follow](https://img.shields.io/twitter/follow/ParsePlatform.svg?label=Follow%20us%20on%20Twitter&style=social)](https://twitter.com/intent/follow?screen_name=ParsePlatform)
 
-A library that gives you access to the powerful Parse cloud platform from your iOS or OS X app.
+A library that allows you to access a Parse Server from your iOS/OS X/watchOS/tvOS app.
 For more information about Parse and its features, see the public [documentation][docs].
 
 Check out some of the [apps using Parse](https://www.appsight.io/sdk/parse).
